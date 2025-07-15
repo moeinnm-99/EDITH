@@ -1,0 +1,25 @@
+# 📦 EDITH Virtual Assistant - Requirements
+# Version: 1.0.0
+
+# Core dependencies
+pyttsx3==2.90
+SpeechRecognition==3.8.1
+wikipedia==1.4.0
+wolframalpha==5.0.0
+pyautogui==0.9.53
+psutil==5.9.0
+pyjokes==0.6.0
+colored==1.4.4
+Pillow==9.5.0  # Required for screenshot functionality
+
+# Optional dependencies (for additional features)
+python-dotenv==1.0.0  # For environment variables
+pyaudio==0.2.13  # For better microphone support
+beautifulsoup4==4.12.2  # For web scraping
+requests==2.31.0  # For HTTP requests
+pywin32==306  # Windows specific (if running on Windows)
+
+# Development dependencies (not required for production)
+pytest==7.4.0
+flake8==6.1.0
+black==23.9.1
